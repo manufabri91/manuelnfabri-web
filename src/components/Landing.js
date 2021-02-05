@@ -17,7 +17,7 @@ const Landing = () => {
               </span>
             </h4>
             <p className='has-text-white'>
-              A software developer based in Rosario (Argentina), currently employed full-time by Grupo San Cristobal where I work as a fullstack developer for one of it's web applications.
+              A software developer based in Rosario (Argentina), currently employed full-time by Grupo San Cristobal where I work as a fullstack developer for one of their web applications.
             </p>
           </div>
         </div>
