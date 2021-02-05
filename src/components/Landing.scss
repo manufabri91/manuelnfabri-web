@@ -12,3 +12,8 @@
 .hero-background.is-transparent {
   opacity: 0.7;
 }
+@media screen and (min-width: 560px) {
+  .hero-background {
+    object-fit: contain;
+  }
+}
