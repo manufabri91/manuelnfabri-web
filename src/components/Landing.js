@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 const Landing = () => {
   return (
     <section id='home' className='hero is-dark is-fullheight'>
-      <img alt="Fill Murray" className="hero-background is-dark" src={heroImage} />
+      <img alt="background illustration" className="hero-background is-dark" src={heroImage} />
       <div className='hero-body'>
         <div className='container'>
           <div className='box has-background-black' style={{opacity: '.8'}}>
