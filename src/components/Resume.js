@@ -1,14 +1,33 @@
-import React from 'react';
+import React from 'react'
 
 const Resume = () => {
   return (
-    <section id='resume' className='section is-medium is-dark has-text-centered'>
-          <h1 className='title'>MY RESUME</h1>
-          <h2 className='subtitle'>
-            Here you will find a copy of my resume soon
-          </h2>
+    <section id='resume' className='section is-medium '>
+      <h1 className='title has-text-centered'>RESUME</h1>
+      <div className='content block has-text-centered'>
+        <p>
+          If you want to know more about my working experience, education and
+          skills, soon I will upload it here for reader's convenience. By now,
+          you can download a full copy of my resume in PDF.
+        </p>
+      </div>
+      <div className='block has-text-centered'>
+        <button
+          class='button is-primary'
+          onClick={() =>
+            window.open(
+              'https://1drv.ms/b/s!AvdnWuTtGeQZo6E-EBlKrm0ALhF5oA?e=GcHhNN'
+            )
+          }
+        >
+          <span class='icon'>
+            <i class='fa fa-download'></i>
+          </span>
+          <span>Download CV</span>
+        </button>
+      </div>
     </section>
-  );
-};
+  )
+}
 
-export default Resume;
+export default Resume
