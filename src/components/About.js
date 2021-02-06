@@ -28,7 +28,12 @@ const About = () => {
                 support and business analyst and full stack developer.
               </p>
               <p>
-                I'm naturally curious and always working on improving my skills.
+                I'm naturally curious, super attentive to details (maybe a bit
+                perfectionist, which ain't always that good{' '}
+                <span role='img' aria-label='auch'>
+                  😅
+                </span>
+                ), and always working on improving my skills
               </p>
             </div>
           </div>
