@@ -3,8 +3,8 @@ import React from 'react'
 const Resume = () => {
   return (
     <section id='resume' className='section is-medium '>
-      <h1 className='title has-text-centered'>RESUME</h1>
-      <div className='content block has-text-centered'>
+      <h1 className='title has-text-primary-dark has-text-centered'>RESUME</h1>
+      <div className='content container block'>
         <p>
           If you want to know more about my working experience, education and
           skills, soon I will upload it here for reader's convenience. By now,

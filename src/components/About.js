@@ -5,7 +5,9 @@ import avatar from '../assets/avatar.png'
 const About = () => {
   return (
     <section id='about' className='section is-small'>
-      <h1 className='title has-text-centered '>ABOUT ME</h1>
+      <h1 className='title has-text-primary-dark has-text-centered'>
+        ABOUT ME
+      </h1>
       <div className='container is-flex content is-justify-content-center'>
         <article className='media'>
           <figure className='media-left'>
