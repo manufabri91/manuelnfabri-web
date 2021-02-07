@@ -29,7 +29,7 @@ const About = () => {
               </p>
               <p>
                 I'm naturally curious, super attentive to details (maybe a bit
-                perfectionist, which ain't always that good{' '}
+                perfectionist, which isn't always that good{' '}
                 <span role='img' aria-label='auch'>
                   😅
                 </span>

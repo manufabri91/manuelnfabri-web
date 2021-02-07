@@ -7,8 +7,8 @@ const Resume = () => {
       <div className='content container block'>
         <p>
           If you want to know more about my working experience, education and
-          skills, soon I will upload it here for reader's convenience. By now,
-          you can download a full copy of my resume in PDF.
+          skills, soon I will upload it here for your convenience. For now, you
+          can download a full copy of my resume in PDF.
         </p>
       </div>
       <div className='block has-text-centered'>

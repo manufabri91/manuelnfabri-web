@@ -28,6 +28,26 @@ const Landing = () => {
               work as a <strong>fullstack web developer</strong> for one of
               their web applications.
             </p>
+            <div className='buttons has-text-centered is-flex is-justify-content-center'>
+              <button
+                className='button is-dark'
+                onClick={() =>
+                  window.open('https://www.linkedin.com/in/manuelnfabri/')
+                }
+              >
+                <span className='icon is-large'>
+                  <i className='fab fa-linkedin fa-2x'></i>
+                </span>
+              </button>
+              <button
+                className='button is-dark'
+                onClick={() => window.open('https://github.com/manufabri91')}
+              >
+                <span className='icon is-large'>
+                  <i className='fab fa-github fa-2x'></i>
+                </span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
