@@ -1,0 +1,2 @@
+.hero.has-background{position:relative;overflow:hidden}.hero-background{position:absolute;object-fit:cover;object-position:center center;width:100%;height:100%}.hero-background.is-transparent{opacity:.7}@media screen and (min-width:768px){.hero-background{object-fit:contain}}article.media{flex-wrap:wrap;justify-content:center}@media screen and (min-width:768px){article.media{justify-content:normal;flex-wrap:nowrap}}
+/*# sourceMappingURL=main.693fd8a5.chunk.css.map */
