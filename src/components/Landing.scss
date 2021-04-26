@@ -1,3 +1,10 @@
+@import 'bulma/sass/utilities/derived-variables';
+.arrow {
+  color: $primary-dark;
+  &:hover {
+    color: white;
+  }
+}
 .hero.has-background {
   position: relative;
   overflow: hidden;

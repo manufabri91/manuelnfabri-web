@@ -1,1 +1,7 @@
-$link: red;
+@import 'bulma/sass/utilities/initial-variables';
+@import 'bulma/sass/utilities/functions';
+@import 'bulma/sass/utilities/derived-variables';
+$link: $primary;
+$link-hover: $primary-light;
+
+@import 'bulma';
