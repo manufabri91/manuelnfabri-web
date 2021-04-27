@@ -16,7 +16,10 @@ const Landing = () => {
       />
       <div className='hero-body'>
         <div className='container'>
-          <div className='box has-background-black' style={{ opacity: '.9' }}>
+          <div
+            className='box mt-3 has-background-black'
+            style={{ opacity: '.9' }}
+          >
             <h3 className='title is-3 has-text-centered'>Hi, there!</h3>
             <h4 className='title is-4 has-text-centered'>
               I'm <strong>Manuel Fabri</strong>

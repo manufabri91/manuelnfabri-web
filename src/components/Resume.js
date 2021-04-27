@@ -25,18 +25,24 @@ const Resume = () => {
             </div>{' '}
             <div class='block'>
               <h4>Spring Boot</h4>
-              <progress class='progress' value='55' max='100'>
-                55%
+              <progress class='progress' value='60' max='100'>
+                60%
               </progress>
             </div>
             <div class='block'>
               <h4>Java</h4>
               <progress class='progress' value='65' max='100'>
-                15%
+                65%
               </progress>
             </div>
             <div class='block'>
               <h4>C#</h4>
+              <progress class='progress' value='65' max='100'>
+                65%
+              </progress>
+            </div>
+            <div class='block'>
+              <h4>SQL</h4>
               <progress class='progress' value='60' max='100'>
                 60%
               </progress>
@@ -87,8 +93,8 @@ const Resume = () => {
                   components that could be reused across the Web Application.
                 </li>
                 <li>
-                  Developed several RESTful API endpoints in order to deliver
-                  user stories on time.
+                  Developed several RESTful API endpoints using .NetCore in
+                  order to deliver user stories on time.
                 </li>
                 <li>
                   Extensively used Git for version controlling and regularly
