@@ -6,9 +6,7 @@ const Resume = () => {
       <div className='content container block'>
         <div className='columns mb-6'>
           <div className='column is-one-third'>
-            <h3 className='title has-text-primary-dark has-text-left'>
-              SKILLS
-            </h3>
+            <h3 className='title has-text-primary-dark has-text-left'>SKILLS</h3>
           </div>
           <div className='column is-two-third'>
             <div class='block'>
@@ -75,47 +73,33 @@ const Resume = () => {
         </div>
         <div className='columns pt-6'>
           <div className='column is-one-third'>
-            <h3 className='title has-text-primary-dark has-text-left'>
-              EXPERIENCE
-            </h3>
+            <h3 className='title has-text-primary-dark has-text-left'>EXPERIENCE</h3>
           </div>
           <div className='column is-two-third'>
             <div class='block'>
-              <h4>Fullstack Developer @ Grupo San Cristobal</h4>
-              <h6>2020 - Present</h6>
+              <h4>Frontend Developer @ Mercado Libre</h4>
+              <h6>2021 - Present</h6>
               <ul>
+                <li>Developed React components that meets accessibility and web browser standards.</li>
+                <li>Developed middleware endpoints using NodeJS in order to deliver user stories on time.</li>
+                <li>Extensively used Git for version controlling and regularly pushed the code to GitHub.</li>
+                <li>Interacted with several teams across the company ecosystem</li>
+              </ul>
+            </div>
+            <div class='block'>
+              <h4>Fullstack Developer @ Grupo San Cristobal</h4>
+              <h6>2020 - 2021</h6>
+              <ul>
+                <li>Designed and developed HTML5, SCSS, TypeScript, and Angular app that meets accessibility and web browser standards.</li>
                 <li>
-                  Designed and developed HTML5, SCSS, TypeScript, and Angular
-                  app that meets accessibility and web browser standards.
+                  Used Object Oriented Programming concepts to develop the UI components that could be reused across the Web Application.
                 </li>
-                <li>
-                  Used Object Oriented Programming concepts to develop the UI
-                  components that could be reused across the Web Application.
-                </li>
-                <li>
-                  Developed several RESTful API endpoints using .NetCore in
-                  order to deliver user stories on time.
-                </li>
-                <li>
-                  Extensively used Git for version controlling and regularly
-                  pushed the code to GitHub.
-                </li>
-                <li>
-                  Interacted with Testing Team, Product Owner and Business
-                  Analysts for fixing of Issues.
-                </li>
-                <li>
-                  Reached and maintained around 90% code coverage on our repos
-                  to ensure code quality.
-                </li>
-                <li>
-                  Provided leadership and subject matter expert on Agile topics
-                  among the team and helped on facilitating ceremonies.
-                </li>
-                <li>
-                  Provided support for migration among Angular versions for
-                  teams among the company.
-                </li>
+                <li>Developed several RESTful API endpoints using .NetCore in order to deliver user stories on time.</li>
+                <li>Extensively used Git for version controlling and regularly pushed the code to GitHub.</li>
+                <li>Interacted with Testing Team, Product Owner and Business Analysts for fixing of Issues.</li>
+                <li>Reached and maintained around 90% code coverage on our repos to ensure code quality.</li>
+                <li>Provided leadership and subject matter expert on Agile topics among the team and helped on facilitating ceremonies.</li>
+                <li>Provided support for migration among Angular versions for teams among the company.</li>
               </ul>
             </div>
             <div class='block'>
@@ -123,29 +107,17 @@ const Resume = () => {
               <h6>2018 - 2020</h6>
               <ul>
                 <li>
-                  Successfully migrated a module of a huge monolithic
-                  accountancy system into an Angular web app backed by
-                  Microservices architecture (with .Net Core).
+                  Successfully migrated a module of a huge monolithic accountancy system into an Angular web app backed by Microservices
+                  architecture (with .Net Core).
                 </li>
+                <li>Designed and developed HTML5, SCSS, TypeScript, and Angular app that meets accessibility and web browser standards.</li>
                 <li>
-                  Designed and developed HTML5, SCSS, TypeScript, and Angular
-                  app that meets accessibility and web browser standards.
+                  Used Object Oriented Programming concepts to develop the UI components that could be reused across the Web Application.
                 </li>
+                <li>Extensively used Git for version controlling and regularly pushed the code to GitHub.</li>
+                <li>Interacted with Testing Team, Scrum Masters and Business Analysts for fixing of Issues.</li>
                 <li>
-                  Used Object Oriented Programming concepts to develop the UI
-                  components that could be reused across the Web Application.
-                </li>
-                <li>
-                  Extensively used Git for version controlling and regularly
-                  pushed the code to GitHub.
-                </li>
-                <li>
-                  Interacted with Testing Team, Scrum Masters and Business
-                  Analysts for fixing of Issues.
-                </li>
-                <li>
-                  Worked with UX team to help them do research and do the
-                  discoveries, giving them an early heads up on what could be
+                  Worked with UX team to help them do research and do the discoveries, giving them an early heads up on what could be
                   feasible and what not.
                 </li>
                 <li>Mentored and coached new joiners on the team</li>
@@ -155,34 +127,21 @@ const Resume = () => {
               <h4>Business Analyst and L3 Support (for Pfizer) @ Acccenture</h4>
               <h6>2018 - 2016</h6>
               <ul>
+                <li>Worked in Kronos implementations and configuration on several sites around the world.</li>
                 <li>
-                  Worked in Kronos implementations and configuration on several
-                  sites around the world.
+                  Performed the impact analysis and change management, report it to the client managers and implementation of changes
+                  according to the request of the Payroll groups.
                 </li>
-                <li>
-                  Performed the impact analysis and change management, report it
-                  to the client managers and implementation of changes according
-                  to the request of the Payroll groups.
-                </li>
-                <li>
-                  Certified as a Pharmaceutical Industry Generalist, and
-                  acquired basic skills on SQL, VB and C#.
-                </li>
+                <li>Certified as a Pharmaceutical Industry Generalist, and acquired basic skills on SQL, VB and C#.</li>
               </ul>
             </div>
             <div class='block'>
               <h4>QA Automation Engineer @ Acccenture</h4>
               <h6>2014 - 2016</h6>
               <ul>
-                <li>
-                  Developed and configured automated regression tests using HP
-                  UFT, ALM, VBS and Excel Macros
-                </li>
+                <li>Developed and configured automated regression tests using HP UFT, ALM, VBS and Excel Macros</li>
                 <li>Mentored and coached new joiners on the team.</li>
-                <li>
-                  When needed, I was in charge of planning and coordination of
-                  tasks among the team.
-                </li>
+                <li>When needed, I was in charge of planning and coordination of tasks among the team.</li>
               </ul>
             </div>
           </div>
