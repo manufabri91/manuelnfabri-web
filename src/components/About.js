@@ -19,9 +19,10 @@ const About = () => {
             </p>
             <p className="mb-1">
               Since 2018 I enjoy being a full stack developer. Right now I'm
-              working with React and Python, but in the past I worked several
-              years with Angular and .Net. I also did some side projects using
-              Flutter and Spring Boot .
+              working full-time with React and Python, but in the past I worked
+              several years with Angular and .Net. Also, in my free time, I
+              enjoy doing some side cross-device projects using React, Flutter
+              and Spring Boot.
             </p>
             <p>
               In the beginning of my professional journey back in 2014 and until
@@ -34,9 +35,9 @@ const About = () => {
             <div className="columns">
               <div className="column is-one-third">
                 <p className="mb-2">Manuel Fabri</p>
-                <p className="mb-2">Rosario</p>
-                <p className="mb-2">Santa Fe, Argentina</p>
-                <p className="mb-2">+54 9 (341) 361-2674</p>
+                <p className="mb-2">Madrid</p>
+                <p className="mb-2">Madrid, Spain</p>
+                <p className="mb-2">+34 608 77 05 29</p>
                 <p>
                   <a href="mailto:manuelnfabri@gmail.com">
                     <strong>manuelnfabri@gmail.com</strong>

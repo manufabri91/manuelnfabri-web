@@ -31,7 +31,7 @@ const Landing = () => {
               I'm a <strong>software developer</strong> currently based in
               Madrid (Spain).
             </p>
-            <p>
+            <p className="has-text-white">
               I have
               <strong>
                 {" "}
