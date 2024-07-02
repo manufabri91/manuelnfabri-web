@@ -12,17 +12,17 @@ const Resume = () => {
           </div>
           <div className="column is-two-third">
             <div class="block">
+              <h4>React</h4>
+              <progress class="progress" value="95" max="100">
+                95%
+              </progress>
+            </div>
+            <div class="block">
               <h4>Angular</h4>
               <progress class="progress" value="90" max="100">
                 90%
               </progress>
             </div>
-            <div class="block">
-              <h4>React</h4>
-              <progress class="progress" value="90" max="100">
-                90%
-              </progress>
-            </div>{" "}
             <div class="block">
               <h4>Spring Boot</h4>
               <progress class="progress" value="60" max="100">
@@ -112,7 +112,10 @@ const Resume = () => {
               <h6>2022 - 2024</h6>
               <ul>
                 <li>
-                  Developed React components that meets accessibility and web
+                  Worked for industry leading Oil&Gas and Media clients.
+                </li>
+                <li>
+                  Developed React and Angular components that meets accessibility and web
                   browser standards.
                 </li>
                 <li>
