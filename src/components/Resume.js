@@ -81,8 +81,35 @@ const Resume = () => {
           </div>
           <div className="column is-two-third">
             <div class="block">
+              <h4>Fullstack Developer @ eDreams ODIGEO</h4>
+              <h6>2024 - present</h6>
+              <ul>
+               <li>
+                  Developed React components that meets accessibility and web
+                  browser standards.
+                </li>
+                <li>
+                  Generated several informative dashboards with metrics and logs
+                  in order to know how our apps were running.
+                </li>
+                <li>
+                  Created a React component library using Lerna and Storybook.
+                </li>
+                <li>
+                  Developed middleware endpoints using NodeJS in order to
+                  deliver user stories on time.
+                </li>
+                <li>
+                  Extensively used Git for version controlling and regularly
+                  pushed the code to GitHub.
+                </li>
+                <li>
+                  Interacted with several teams across the company ecosystem
+                </li>
+              </ul>
+            </div> <div class="block">
               <h4>Fullstack Developer @ Talan</h4>
-              <h6>2022 - present</h6>
+              <h6>2022 - 2024</h6>
               <ul>
                 <li>
                   Developed React components that meets accessibility and web
