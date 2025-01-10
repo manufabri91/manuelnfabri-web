@@ -85,26 +85,10 @@ const Resume = () => {
               <h6>2024 - present</h6>
               <ul>
                <li>
-                  Developed React components that meets accessibility and web
-                  browser standards.
+                  Developed and maintained React modules in the Prime area, using Typescript with styled components that meets top tier quality standards.
                 </li>
                 <li>
-                  Generated several informative dashboards with metrics and logs
-                  in order to know how our apps were running.
-                </li>
-                <li>
-                  Created a React component library using Lerna and Storybook.
-                </li>
-                <li>
-                  Developed middleware endpoints using NodeJS in order to
-                  deliver user stories on time.
-                </li>
-                <li>
-                  Extensively used Git for version controlling and regularly
-                  pushed the code to GitHub.
-                </li>
-                <li>
-                  Interacted with several teams across the company ecosystem
+                  Pushed several codebase and architecture improvements that made our team stand out and become recognized by other teams in the company .
                 </li>
               </ul>
             </div> <div class="block">
