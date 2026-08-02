@@ -12,7 +12,7 @@ function openCv() {
           <img class="is-rounded" src="@/assets/avatar.png" alt="avatar" />
         </figure>
         <div class="content has-text-grey-light">
-          <h3 class="title has-text-primary-dark">About Me</h3>
+          <h3 class="title has-text-accent-dark">About Me</h3>
           <p class="mb-1">
             I'm naturally curious, excited for challenges, with a good eye for details, and
             always working on improving my skills and learning about new technologies or tools.
@@ -29,7 +29,7 @@ function openCv() {
             consider that gave me another point of view and helps me to be successful as a
             software developer.
           </p>
-          <h3 class="title has-text-primary-dark">Contact Details</h3>
+          <h3 class="title has-text-accent-dark">Contact Details</h3>
           <div class="columns">
             <div class="column is-one-third">
               <p class="mb-2">Manuel Fabri</p>

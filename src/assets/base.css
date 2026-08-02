@@ -4,13 +4,34 @@ html {
   scroll-behavior: smooth;
 }
 
+/* The original site was built against Bulma 0.9.4; this CDN import is 1.0.4,
+   which changed several defaults. --bulma-link-* is Bulma 1.x's supported
+   re-theming hook (replacing the old Sass $link: $primary override) - it's
+   also what internal components like the navbar burger derive their color
+   from, so it has to be set here rather than styled per-element. */
 :root {
   --bulma-link-h: var(--bulma-primary-h);
   --bulma-link-s: var(--bulma-primary-s);
   --bulma-link-l: var(--bulma-primary-l);
 
-  /* Bulma 1.x's primary-dark shade (L 11%) is much darker than the
-     L 29% shade the original site got from Bulma 0.9.4's has-text-primary-dark
-     (#00947e). Restore that exact lightness so headings match the original. */
-  --bulma-primary-dark-l: 29%;
+  /* Bulma 0.9.4's primary-dark shade, for has-text-accent-dark below.
+     (Not restored via --bulma-primary-dark-l: that variable's derivation
+     formula changed between versions, so overriding it isn't "re-theming",
+     it's patching a version regression - a plain literal value is clearer.) */
+  --accent-dark: #00947e;
+}
+
+.has-text-accent-dark {
+  color: var(--accent-dark);
+}
+
+/* Bulma 1.0.4's navbar-burger shrank from 3.25rem (0.9.4) to 2.5rem */
+.navbar-burger {
+  height: 3.25rem;
+  width: 3.25rem;
+}
+
+/* Bulma 1.0.4's .title defaults to font-weight 800 (extrabold); 0.9.4 used 600 (semibold) */
+.title {
+  font-weight: 600;
 }

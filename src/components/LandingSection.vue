@@ -59,10 +59,14 @@ function openLink(url: string) {
 
 <style scoped>
 .arrow {
-  color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-dark-l));
+  color: var(--accent-dark);
 }
 .arrow:hover {
   color: white;
+}
+/* Bulma 1.0.4's .buttons gap is 0.75rem; 0.9.4 spaced buttons with 0.5rem margins */
+.buttons {
+  gap: 0.5rem;
 }
 .hero.has-background {
   position: relative;

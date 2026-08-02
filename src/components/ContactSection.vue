@@ -1,6 +1,6 @@
 <template>
   <section id="contact" class="section is-medium has-background-black has-text-centered">
-    <h1 class="title has-text-primary-dark">CONTACT</h1>
+    <h1 class="title has-text-accent-dark">CONTACT</h1>
     <div class="content container has-text-grey-light">
       <div class="block">
         <p>

@@ -3,7 +3,7 @@
     <div class="content container block">
       <div class="columns mb-6">
         <div class="column is-one-third">
-          <h3 class="title has-text-primary-dark has-text-left">SKILLS</h3>
+          <h3 class="title has-text-accent-dark has-text-left">SKILLS</h3>
         </div>
         <div class="column is-two-third">
           <div class="block">
@@ -54,7 +54,7 @@
       </div>
       <div class="columns pt-6">
         <div class="column is-one-third">
-          <h3 class="title has-text-primary-dark has-text-left">EXPERIENCE</h3>
+          <h3 class="title has-text-accent-dark has-text-left">EXPERIENCE</h3>
         </div>
         <div class="column is-two-third">
           <div class="block">
