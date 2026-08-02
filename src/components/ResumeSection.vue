@@ -11,8 +11,12 @@
             <progress class="progress" value="95" max="100">95%</progress>
           </div>
           <div class="block">
-            <h4>Angular</h4>
+            <h4>Vue.js</h4>
             <progress class="progress" value="90" max="100">90%</progress>
+          </div>
+          <div class="block">
+            <h4>Angular</h4>
+            <progress class="progress" value="60" max="100">60%</progress>
           </div>
           <div class="block">
             <h4>Spring Boot</h4>
