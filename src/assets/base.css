@@ -8,6 +8,11 @@ html {
   --bulma-link-h: var(--bulma-primary-h);
   --bulma-link-s: var(--bulma-primary-s);
   --bulma-link-l: var(--bulma-primary-l);
+
+  /* Bulma 1.x's primary-dark shade (L 11%) is much darker than the
+     L 29% shade the original site got from Bulma 0.9.4's has-text-primary-dark
+     (#00947e). Restore that exact lightness so headings match the original. */
+  --bulma-primary-dark-l: 29%;
 }
 
 /* color palette from <https://github.com/vuejs/theme> */
