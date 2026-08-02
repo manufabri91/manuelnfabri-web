@@ -25,13 +25,15 @@ function openLink(url: string) {
             <span role="img" aria-label="smile">😀</span>
           </h4>
           <p class="has-text-white">
-            I'm a <strong>software developer</strong> currently based in Madrid (Spain).
+            I'm a <strong class="has-text-white">software developer</strong> currently based in
+            Madrid (Spain).
           </p>
           <p class="has-text-white">
-            I have <strong>over {{ yearsOnIT }} years of IT experience</strong> which includes
-            more than {{ yearsAsDev }} years of experience building beautiful web apps, following
-            best practices and always looking for improvements. I have passion for helping
-            others, high attention to details and a very proactive attitude.
+            I have
+            <strong class="has-text-white">over {{ yearsOnIT }} years of IT experience</strong>
+            which includes more than {{ yearsAsDev }} years of experience building beautiful web
+            apps, following best practices and always looking for improvements. I have passion for
+            helping others, high attention to details and a very proactive attitude.
           </p>
           <div class="buttons has-text-centered is-flex is-justify-content-center">
             <button
@@ -49,8 +51,11 @@ function openLink(url: string) {
     </div>
     <div class="hero-footer">
       <div class="container has-text-centered">
-        <a href="#about">
-          <i class="fas fa-chevron-circle-down arrow" style="font-size: 3rem; margin-bottom: 3rem"></i>
+        <a href="#about" class="has-text-primary">
+          <i
+            class="fas fa-chevron-circle-down fill-current"
+            style="font-size: 3rem; margin-bottom: 3rem"
+          ></i>
         </a>
       </div>
     </div>
@@ -58,16 +63,6 @@ function openLink(url: string) {
 </template>
 
 <style scoped>
-.arrow {
-  color: var(--accent-dark);
-}
-.arrow:hover {
-  color: white;
-}
-/* Bulma 1.0.4's .buttons gap is 0.75rem; 0.9.4 spaced buttons with 0.5rem margins */
-.buttons {
-  gap: 0.5rem;
-}
 .hero.has-background {
   position: relative;
   overflow: hidden;

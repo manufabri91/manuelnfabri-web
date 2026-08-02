@@ -1,9 +1,9 @@
 <template>
-  <section id="resume" class="section is-medium">
+  <section id="resume" class="section is-medium has-background">
     <div class="content container block">
       <div class="columns mb-6">
         <div class="column is-one-third">
-          <h3 class="title has-text-accent-dark has-text-left">SKILLS</h3>
+          <h3 class="title has-text-left">SKILLS</h3>
         </div>
         <div class="column is-two-third">
           <div class="block">
@@ -54,20 +54,18 @@
       </div>
       <div class="columns pt-6">
         <div class="column is-one-third">
-          <h3 class="title has-text-accent-dark has-text-left">EXPERIENCE</h3>
+          <h3 class="title has-text-left">EXPERIENCE</h3>
         </div>
         <div class="column is-two-third">
           <div class="block">
             <h4>Software Engineer II @ Super</h4>
             <h6>Oct 2025 - Present</h6>
             <ul>
+              <li>Developed and maintained Vue apps for the Sports Area.</li>
+              <li>Developed and maintained React apps for the data quality Area.</li>
               <li>
-                Developed and maintained React modules in the Prime area, using Typescript with
-                styled components that meets top tier quality standards.
-              </li>
-              <li>
-                Pushed several codebase and architecture improvements that made our team stand out
-                and become recognized by other teams in the company.
+                Contributed to the development of AI skills and plugins for keeping documentation up
+                to date.
               </li>
             </ul>
           </div>
