@@ -54,34 +54,44 @@
         </div>
         <div class="column is-two-third">
           <div class="block">
-            <h4>Fullstack Developer @ eDreams ODIGEO</h4>
-            <h6>2024 - present</h6>
+            <h4>Software Engineer II @ Super</h4>
+            <h6>Oct 2025 - Present</h6>
             <ul>
               <li>
                 Developed and maintained React modules in the Prime area, using Typescript with
                 styled components that meets top tier quality standards.
               </li>
               <li>
-                Pushed several codebase and architecture improvements that made our team stand
-                out and become recognized by other teams in the company.
+                Pushed several codebase and architecture improvements that made our team stand out
+                and become recognized by other teams in the company.
+              </li>
+            </ul>
+          </div>
+          <div class="block">
+            <h4>Fullstack Developer @ eDreams ODIGEO</h4>
+            <h6>Jan 2024 - Oct 2025</h6>
+            <ul>
+              <li>
+                Developed and maintained React modules in the Prime area, using Typescript with
+                styled components that meets top tier quality standards.
+              </li>
+              <li>
+                Pushed several codebase and architecture improvements that made our team stand out
+                and become recognized by other teams in the company.
               </li>
             </ul>
           </div>
           <div class="block">
             <h4>Fullstack Developer @ Talan</h4>
-            <h6>2022 - 2024</h6>
+            <h6>Dec 2022 - Jan 2024</h6>
             <ul>
               <li>Worked for industry leading Oil&amp;Gas and Media clients.</li>
               <li>
                 Developed React and Angular components that meets accessibility and web browser
                 standards.
               </li>
-              <li>
-                Implemented best practices cross-teams to get the codebase more maintainable.
-              </li>
-              <li>
-                Contributed with the application architecture planning for the client.
-              </li>
+              <li>Implemented best practices cross-teams to get the codebase more maintainable.</li>
+              <li>Contributed with the application architecture planning for the client.</li>
               <li>Contributed on the UX design of several projects.</li>
               <li>
                 Councelled junior teammates on the next steps on their careers, giving continous
@@ -91,14 +101,14 @@
           </div>
           <div class="block">
             <h4>Frontend Developer @ Mercado Libre</h4>
-            <h6>2021 - 2022</h6>
+            <h6>Jun 2021 - Nov 2022</h6>
             <ul>
               <li>
                 Developed React components that meets accessibility and web browser standards.
               </li>
               <li>
-                Generated several informative dashboards with metrics and logs in order to know
-                how our apps were running.
+                Generated several informative dashboards with metrics and logs in order to know how
+                our apps were running.
               </li>
               <li>Created a React component library using Lerna and Storybook.</li>
               <li>
@@ -114,15 +124,15 @@
           </div>
           <div class="block">
             <h4>Fullstack Developer @ Grupo San Cristobal</h4>
-            <h6>2020 - 2021</h6>
+            <h6>Jan 2020 - Jun 2021</h6>
             <ul>
               <li>
                 Designed and developed HTML5, SCSS, TypeScript, and Angular app that meets
                 accessibility and web browser standards.
               </li>
               <li>
-                Used Object Oriented Programming concepts to develop the UI components that could
-                be reused across the Web Application.
+                Used Object Oriented Programming concepts to develop the UI components that could be
+                reused across the Web Application.
               </li>
               <li>
                 Developed several RESTful API endpoints using .NetCore in order to deliver user
@@ -137,19 +147,20 @@
                 Issues.
               </li>
               <li>
-                Reached and maintained around 90% code coverage on our repos to ensure code
-                quality.
+                Reached and maintained around 90% code coverage on our repos to ensure code quality.
               </li>
               <li>
                 Provided leadership and subject matter expert on Agile topics among the team and
                 helped on facilitating ceremonies.
               </li>
-              <li>Provided support for migration among Angular versions for teams among the company.</li>
+              <li>
+                Provided support for migration among Angular versions for teams among the company.
+              </li>
             </ul>
           </div>
           <div class="block">
             <h4>Fullstack Developer @ Accenture</h4>
-            <h6>2018 - 2020</h6>
+            <h6>Aug 2018 - Jan 2020</h6>
             <ul>
               <li>
                 Successfully migrated a module of a huge monolithic accountancy system into an
@@ -160,8 +171,8 @@
                 accessibility and web browser standards.
               </li>
               <li>
-                Used Object Oriented Programming concepts to develop the UI components that could
-                be reused across the Web Application.
+                Used Object Oriented Programming concepts to develop the UI components that could be
+                reused across the Web Application.
               </li>
               <li>
                 Extensively used Git for version controlling and regularly pushed the code to
@@ -172,15 +183,15 @@
                 Issues.
               </li>
               <li>
-                Worked with UX team to help them do research and do the discoveries, giving them
-                an early heads up on what could be feasible and what not.
+                Worked with UX team to help them do research and do the discoveries, giving them an
+                early heads up on what could be feasible and what not.
               </li>
               <li>Mentored and coached new joiners on the team</li>
             </ul>
           </div>
           <div class="block">
             <h4>Business Analyst and L3 Support (for Pfizer) @ Acccenture</h4>
-            <h6>2018 - 2016</h6>
+            <h6>Aug 2018 - Aug 2016</h6>
             <ul>
               <li>
                 Worked in Kronos implementations and configuration on several sites around the
@@ -192,23 +203,22 @@
                 groups.
               </li>
               <li>
-                Certified as a Pharmaceutical Industry Generalist, and acquired basic skills on
-                SQL, VB and C#.
+                Certified as a Pharmaceutical Industry Generalist, and acquired basic skills on SQL,
+                VB and C#.
               </li>
             </ul>
           </div>
           <div class="block">
             <h4>QA Automation Engineer @ Acccenture</h4>
-            <h6>2014 - 2016</h6>
+            <h6>Aug 2014 - Aug 2016</h6>
             <ul>
               <li>
-                Developed and configured automated regression tests using HP UFT, ALM, VBS and
-                Excel Macros
+                Developed and configured automated regression tests using HP UFT, ALM, VBS and Excel
+                Macros
               </li>
               <li>Mentored and coached new joiners on the team.</li>
               <li>
-                When needed, I was in charge of planning and coordination of tasks among the
-                team.
+                When needed, I was in charge of planning and coordination of tasks among the team.
               </li>
             </ul>
           </div>
