@@ -1,29 +1,26 @@
+<script setup lang="ts">
+import CvLinks from '@/components/CvLinks.vue'
+</script>
+
 <template>
-  <section id="contact" class="section is-medium has-background-black has-text-centered">
-    <h1 class="title has-text-primary">CONTACT</h1>
-    <div class="content container has-text-grey-light">
-      <div class="block">
-        <p>
-          Do you think I could be a great candidate for your company or we can start a project
-          together? Feel free to reach me!
-        </p>
-      </div>
-      <div class="block">
-        <span class="icon"><i class="fa fa-envelope"></i></span>
-        <a class="has-text-primary" href="mailto:manuelnfabri@gmail.com"
-          ><strong>manuelnfabri@gmail.com</strong></a
-        >
-      </div>
-      <div class="block">
-        <span class="icon"><i class="fab fa-linkedin"></i></span>
+  <section id="contact" class="contact-section" tabindex="-1" aria-labelledby="contact-heading">
+    <div class="page-width contact-layout">
+      <div>
+        <h2 id="contact-heading">Let's talk.</h2>
+        <p>Get in touch to discuss software engineering opportunities.</p>
+        <a class="contact-email" href="mailto:manuelnfabri@gmail.com">manuelnfabri@gmail.com</a>
         <a
-          class="has-text-primary"
+          class="contact-link"
           href="https://www.linkedin.com/in/manuelnfabri/"
           target="_blank"
           rel="noopener noreferrer"
+          ><i class="fab fa-linkedin" aria-hidden="true"></i>Connect on LinkedIn</a
         >
-          <strong>linkedin.com/in/manuelnfabri/</strong>
-        </a>
+      </div>
+      <div class="contact-cv">
+        <h3>Take a copy with you.</h3>
+        <p>My CV in English or Spanish.</p>
+        <CvLinks />
       </div>
     </div>
   </section>
