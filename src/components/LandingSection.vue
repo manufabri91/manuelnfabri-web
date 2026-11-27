@@ -1,85 +1,42 @@
 <script setup lang="ts">
-import { getYearsSince } from '@/utils/date'
-
-const yearsOnIT = getYearsSince(new Date(2014, 8, 1))
-const yearsAsDev = getYearsSince(new Date(2018, 8, 1))
-
-function openLink(url: string) {
-  window.open(url)
-}
+import CvLinks from '@/components/CvLinks.vue'
 </script>
 
 <template>
-  <section id="home" class="hero is-dark is-fullheight">
+  <section id="home" class="landing page-width" tabindex="-1" aria-labelledby="profile-heading">
+    <div class="landing-copy">
+      <p class="greeting">Hi, I'm Manuel Fabri.</p>
+      <h1 id="profile-heading">
+        Senior Software<br class="desktop-break" />
+        Engineer
+      </h1>
+      <p class="intro">
+        Frontend expertise in React, Vue and TypeScript, supported by full-stack experience.<span
+          class="location"
+          >Based in Madrid, Spain.</span
+        >
+      </p>
+      <div class="hero-actions">
+        <a class="action action-primary" href="#resume">View experience</a><CvLinks />
+      </div>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/manuelnfabri/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a
+        >
+        <a href="https://github.com/manufabri91" target="_blank" rel="noopener noreferrer"
+          ><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a
+        >
+      </div>
+    </div>
     <img
-      alt="background illustration"
-      class="hero-background is-dark"
+      class="landing-illustration"
       src="@/assets/hero-image.svg"
+      alt=""
+      width="600"
+      height="500"
     />
-    <div class="hero-body">
-      <div class="container">
-        <div class="box mt-3 has-background-black" style="opacity: 0.9">
-          <h3 class="title is-3 has-text-centered">Hi, there!</h3>
-          <h4 class="title is-4 has-text-centered">
-            I'm <strong>Manuel Fabri</strong>
-            <span role="img" aria-label="smile">😀</span>
-          </h4>
-          <p class="has-text-white">
-            I'm a <strong class="has-text-white">software developer</strong> currently based in
-            Madrid (Spain).
-          </p>
-          <p class="has-text-white">
-            I have
-            <strong class="has-text-white">over {{ yearsOnIT }} years of IT experience</strong>
-            which includes more than {{ yearsAsDev }} years of experience building beautiful web
-            apps, following best practices and always looking for improvements. I have passion for
-            helping others, high attention to details and a very proactive attitude.
-          </p>
-          <div class="buttons has-text-centered is-flex is-justify-content-center">
-            <button
-              class="button is-dark"
-              @click="openLink('https://www.linkedin.com/in/manuelnfabri/')"
-            >
-              <span class="icon is-large"><i class="fab fa-linkedin fa-2x"></i></span>
-            </button>
-            <button class="button is-dark" @click="openLink('https://github.com/manufabri91')">
-              <span class="icon is-large"><i class="fab fa-github fa-2x"></i></span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="hero-footer">
-      <div class="container has-text-centered">
-        <a href="#about" class="has-text-primary">
-          <i
-            class="fas fa-chevron-circle-down fill-current"
-            style="font-size: 3rem; margin-bottom: 3rem"
-          ></i>
-        </a>
-      </div>
-    </div>
   </section>
 </template>
-
-<style scoped>
-.hero.has-background {
-  position: relative;
-  overflow: hidden;
-}
-.hero-background {
-  position: absolute;
-  object-fit: cover;
-  object-position: center center;
-  width: 100%;
-  height: 100%;
-}
-.hero-background.is-transparent {
-  opacity: 0.7;
-}
-@media screen and (min-width: 768px) {
-  .hero-background {
-    object-fit: contain;
-  }
-}
-</style>
